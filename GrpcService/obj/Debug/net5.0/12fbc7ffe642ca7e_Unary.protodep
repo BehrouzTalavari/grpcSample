@@ -1,0 +1,2 @@
+obj\Debug\net5.0\Protos/Unary.cs \
+obj\Debug\net5.0\Protos/UnaryGrpc.cs: Protos/Unary.proto

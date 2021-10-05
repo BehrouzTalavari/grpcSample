@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="..\GrpcService\Protos\chatroom.proto" GrpcServices="Client">
-      <Link>Protos\chatroom.proto</Link>
+    <Protobuf Include="..\GrpcService\Protos\Unary.proto" GrpcServices="Client">
+      <Link>Protos\Unary.proto</Link>
     </Protobuf>
   </ItemGroup> 
 </Project>

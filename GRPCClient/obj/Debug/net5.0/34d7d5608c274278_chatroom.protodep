@@ -1,2 +1,0 @@
-obj\Debug\net5.0/Chatroom.cs \
-obj\Debug\net5.0/ChatroomGrpc.cs: ../GrpcService/Protos/chatroom.proto

@@ -1,12 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\chatroom.proto" GrpcServices="Server" />
     <Protobuf Include="Protos\ServerStreaming.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\ClientStreaming.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\Unary.proto" GrpcServices="Server" />
   </ItemGroup>
 
   <ItemGroup>

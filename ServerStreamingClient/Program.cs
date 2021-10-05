@@ -14,7 +14,7 @@ namespace ServerStreamingClient
             // The port number(5001) must match the port of the gRPC server.
             using var channel = GrpcChannel.ForAddress("https://localhost:5001"); 
             var client = new ServerSteaming.ServerSteamingClient(channel);
-            using var call = client.SendMessage(new MessageRequest() { Name = "Server Streaming Sample" });
+            using var call = client.SendMessage(new ServerSteamingMessageRequest() { Name = "Server Streaming Sample" });
 
             while (await call.ResponseStream.MoveNext())
             {

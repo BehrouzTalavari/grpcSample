@@ -1,3 +1,8 @@
+C:\Projects\R&D\grpcSample\ServerStreamingClient\obj\Debug\net5.0\ServerStreamingClient.csproj.AssemblyReference.cache
+C:\Projects\R&D\grpcSample\ServerStreamingClient\obj\Debug\net5.0\ServerStreamingClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\R&D\grpcSample\ServerStreamingClient\obj\Debug\net5.0\ServerStreamingClient.AssemblyInfoInputs.cache
+C:\Projects\R&D\grpcSample\ServerStreamingClient\obj\Debug\net5.0\ServerStreamingClient.AssemblyInfo.cs
+C:\Projects\R&D\grpcSample\ServerStreamingClient\obj\Debug\net5.0\ServerStreamingClient.csproj.CoreCompileInputs.cache
 C:\Projects\R&D\grpcSample\ServerStreamingClient\bin\Debug\net5.0\ServerStreamingClient.exe
 C:\Projects\R&D\grpcSample\ServerStreamingClient\bin\Debug\net5.0\ServerStreamingClient.deps.json
 C:\Projects\R&D\grpcSample\ServerStreamingClient\bin\Debug\net5.0\ServerStreamingClient.runtimeconfig.json
@@ -20,11 +25,6 @@ C:\Projects\R&D\grpcSample\ServerStreamingClient\bin\Debug\net5.0\Microsoft.Exte
 C:\Projects\R&D\grpcSample\ServerStreamingClient\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Projects\R&D\grpcSample\ServerStreamingClient\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Projects\R&D\grpcSample\ServerStreamingClient\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
-C:\Projects\R&D\grpcSample\ServerStreamingClient\obj\Debug\net5.0\ServerStreamingClient.csproj.AssemblyReference.cache
-C:\Projects\R&D\grpcSample\ServerStreamingClient\obj\Debug\net5.0\ServerStreamingClient.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\R&D\grpcSample\ServerStreamingClient\obj\Debug\net5.0\ServerStreamingClient.AssemblyInfoInputs.cache
-C:\Projects\R&D\grpcSample\ServerStreamingClient\obj\Debug\net5.0\ServerStreamingClient.AssemblyInfo.cs
-C:\Projects\R&D\grpcSample\ServerStreamingClient\obj\Debug\net5.0\ServerStreamingClient.csproj.CoreCompileInputs.cache
 C:\Projects\R&D\grpcSample\ServerStreamingClient\obj\Debug\net5.0\ServerStreamingClient.csproj.CopyComplete
 C:\Projects\R&D\grpcSample\ServerStreamingClient\obj\Debug\net5.0\ServerStreamingClient.dll
 C:\Projects\R&D\grpcSample\ServerStreamingClient\obj\Debug\net5.0\ref\ServerStreamingClient.dll

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService"; 
+
+package UnaryService;
+
+service UnaryService {
+  rpc SendMessage (UnaryMessageRequest) returns (UnaryMessageReply);
+}
+
+message UnaryMessageRequest {
+  string name = 1;
+}
+
+message UnaryMessageReply {
+  string message = 1;
+}

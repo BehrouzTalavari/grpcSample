@@ -5,13 +5,13 @@ option csharp_namespace = "GrpcService.Protos";
 package ServerSteaming;
 
 service ServerSteaming {
-	rpc SendMessage (MessageRequest) returns (stream MessageReply);
+	rpc SendMessage (ServerSteamingMessageRequest) returns (stream ServerSteamingMessageReply);
 }
 
-message MessageRequest {
+message ServerSteamingMessageRequest {
 	string name = 1;
 }
 
-message MessageReply {
+message ServerSteamingMessageReply {
 	string message = 1;
 }

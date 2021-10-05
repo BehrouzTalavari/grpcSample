@@ -25,31 +25,32 @@ namespace GrpcService.Protos {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChxQcm90b3MvU2VydmVyU3RyZWFtaW5nLnByb3RvEg5TZXJ2ZXJTdGVhbWlu",
-            "ZyIeCg5NZXNzYWdlUmVxdWVzdBIMCgRuYW1lGAEgASgJIh8KDE1lc3NhZ2VS",
-            "ZXBseRIPCgdtZXNzYWdlGAEgASgJMl8KDlNlcnZlclN0ZWFtaW5nEk0KC1Nl",
-            "bmRNZXNzYWdlEh4uU2VydmVyU3RlYW1pbmcuTWVzc2FnZVJlcXVlc3QaHC5T",
-            "ZXJ2ZXJTdGVhbWluZy5NZXNzYWdlUmVwbHkwAUIVqgISR3JwY1NlcnZpY2Uu",
-            "UHJvdG9zYgZwcm90bzM="));
+            "ZyIsChxTZXJ2ZXJTdGVhbWluZ01lc3NhZ2VSZXF1ZXN0EgwKBG5hbWUYASAB",
+            "KAkiLQoaU2VydmVyU3RlYW1pbmdNZXNzYWdlUmVwbHkSDwoHbWVzc2FnZRgB",
+            "IAEoCTJ7Cg5TZXJ2ZXJTdGVhbWluZxJpCgtTZW5kTWVzc2FnZRIsLlNlcnZl",
+            "clN0ZWFtaW5nLlNlcnZlclN0ZWFtaW5nTWVzc2FnZVJlcXVlc3QaKi5TZXJ2",
+            "ZXJTdGVhbWluZy5TZXJ2ZXJTdGVhbWluZ01lc3NhZ2VSZXBseTABQhWqAhJH",
+            "cnBjU2VydmljZS5Qcm90b3NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcService.Protos.MessageRequest), global::GrpcService.Protos.MessageRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcService.Protos.MessageReply), global::GrpcService.Protos.MessageReply.Parser, new[]{ "Message" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcService.Protos.ServerSteamingMessageRequest), global::GrpcService.Protos.ServerSteamingMessageRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcService.Protos.ServerSteamingMessageReply), global::GrpcService.Protos.ServerSteamingMessageReply.Parser, new[]{ "Message" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Messages
-  public sealed partial class MessageRequest : pb::IMessage<MessageRequest>
+  public sealed partial class ServerSteamingMessageRequest : pb::IMessage<ServerSteamingMessageRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<MessageRequest> _parser = new pb::MessageParser<MessageRequest>(() => new MessageRequest());
+    private static readonly pb::MessageParser<ServerSteamingMessageRequest> _parser = new pb::MessageParser<ServerSteamingMessageRequest>(() => new ServerSteamingMessageRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<MessageRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<ServerSteamingMessageRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -62,21 +63,21 @@ namespace GrpcService.Protos {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public MessageRequest() {
+    public ServerSteamingMessageRequest() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public MessageRequest(MessageRequest other) : this() {
+    public ServerSteamingMessageRequest(ServerSteamingMessageRequest other) : this() {
       name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public MessageRequest Clone() {
-      return new MessageRequest(this);
+    public ServerSteamingMessageRequest Clone() {
+      return new ServerSteamingMessageRequest(this);
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -92,11 +93,11 @@ namespace GrpcService.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as MessageRequest);
+      return Equals(other as ServerSteamingMessageRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(MessageRequest other) {
+    public bool Equals(ServerSteamingMessageRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -163,7 +164,7 @@ namespace GrpcService.Protos {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(MessageRequest other) {
+    public void MergeFrom(ServerSteamingMessageRequest other) {
       if (other == null) {
         return;
       }
@@ -213,15 +214,15 @@ namespace GrpcService.Protos {
 
   }
 
-  public sealed partial class MessageReply : pb::IMessage<MessageReply>
+  public sealed partial class ServerSteamingMessageReply : pb::IMessage<ServerSteamingMessageReply>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<MessageReply> _parser = new pb::MessageParser<MessageReply>(() => new MessageReply());
+    private static readonly pb::MessageParser<ServerSteamingMessageReply> _parser = new pb::MessageParser<ServerSteamingMessageReply>(() => new ServerSteamingMessageReply());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<MessageReply> Parser { get { return _parser; } }
+    public static pb::MessageParser<ServerSteamingMessageReply> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -234,21 +235,21 @@ namespace GrpcService.Protos {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public MessageReply() {
+    public ServerSteamingMessageReply() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public MessageReply(MessageReply other) : this() {
+    public ServerSteamingMessageReply(ServerSteamingMessageReply other) : this() {
       message_ = other.message_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public MessageReply Clone() {
-      return new MessageReply(this);
+    public ServerSteamingMessageReply Clone() {
+      return new ServerSteamingMessageReply(this);
     }
 
     /// <summary>Field number for the "message" field.</summary>
@@ -264,11 +265,11 @@ namespace GrpcService.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as MessageReply);
+      return Equals(other as ServerSteamingMessageReply);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(MessageReply other) {
+    public bool Equals(ServerSteamingMessageReply other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -335,7 +336,7 @@ namespace GrpcService.Protos {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(MessageReply other) {
+    public void MergeFrom(ServerSteamingMessageReply other) {
       if (other == null) {
         return;
       }

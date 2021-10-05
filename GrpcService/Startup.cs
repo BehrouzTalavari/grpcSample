@@ -3,12 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using GrpcService.Services;
+
 
 namespace GrpcService
 {
@@ -29,8 +25,9 @@ namespace GrpcService
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<UnaryService>();
+                endpoints.MapGrpcService<Services.UnaryService>();
                 endpoints.MapGrpcService<ServerStreamingService>();
+                endpoints.MapGrpcService<ClientStreamingService>();
 
                 endpoints.MapGet("/", async context =>
                 {

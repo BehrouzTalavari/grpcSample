@@ -1,3 +1,8 @@
+C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.AssemblyInfoInputs.cache
+C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.AssemblyInfo.cs
+C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.csproj.CoreCompileInputs.cache
+C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\R&D\grpcSample\GrpcService\bin\Debug\net5.0\appsettings.Development.json
 C:\Projects\R&D\grpcSample\GrpcService\bin\Debug\net5.0\appsettings.json
 C:\Projects\R&D\grpcSample\GrpcService\bin\Debug\net5.0\GrpcService.exe
@@ -14,11 +19,7 @@ C:\Projects\R&D\grpcSample\GrpcService\bin\Debug\net5.0\Grpc.Core.Api.dll
 C:\Projects\R&D\grpcSample\GrpcService\bin\Debug\net5.0\Grpc.Net.Client.dll
 C:\Projects\R&D\grpcSample\GrpcService\bin\Debug\net5.0\Grpc.Net.ClientFactory.dll
 C:\Projects\R&D\grpcSample\GrpcService\bin\Debug\net5.0\Grpc.Net.Common.dll
-C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.AssemblyInfoInputs.cache
-C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.AssemblyInfo.cs
-C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.csproj.CoreCompileInputs.cache
-C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.csproj.AssemblyReference.cache
 C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\scopedcss\bundle\GrpcService.styles.css
 C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\staticwebassets\GrpcService.StaticWebAssets.Manifest.cache
 C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.RazorTargetAssemblyInfo.cache
@@ -26,5 +27,3 @@ C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.dll
 C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\ref\GrpcService.dll
 C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.pdb
 C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.genruntimeconfig.cache
-C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.csproj.CopyComplete
-C:\Projects\R&D\grpcSample\GrpcService\obj\Debug\net5.0\GrpcService.csproj.AssemblyReference.cache

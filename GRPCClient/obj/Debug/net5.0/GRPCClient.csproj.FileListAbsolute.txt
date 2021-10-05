@@ -1,4 +1,7 @@
 C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\GRPCClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\GRPCClient.AssemblyInfoInputs.cache
+C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\GRPCClient.AssemblyInfo.cs
+C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\GRPCClient.csproj.CoreCompileInputs.cache
 C:\Projects\R&D\grpcSample\GRPCClient\bin\Debug\net5.0\GRPCClient.exe
 C:\Projects\R&D\grpcSample\GRPCClient\bin\Debug\net5.0\GRPCClient.deps.json
 C:\Projects\R&D\grpcSample\GRPCClient\bin\Debug\net5.0\GRPCClient.runtimeconfig.json
@@ -21,11 +24,9 @@ C:\Projects\R&D\grpcSample\GRPCClient\bin\Debug\net5.0\Microsoft.Extensions.Logg
 C:\Projects\R&D\grpcSample\GRPCClient\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Projects\R&D\grpcSample\GRPCClient\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Projects\R&D\grpcSample\GRPCClient\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
-C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\GRPCClient.AssemblyInfoInputs.cache
-C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\GRPCClient.AssemblyInfo.cs
-C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\GRPCClient.csproj.CoreCompileInputs.cache
+C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\GRPCClient.csproj.CopyComplete
 C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\GRPCClient.dll
 C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\ref\GRPCClient.dll
 C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\GRPCClient.pdb
 C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\GRPCClient.genruntimeconfig.cache
-C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\GRPCClient.csproj.CopyComplete
+C:\Projects\R&D\grpcSample\GRPCClient\obj\Debug\net5.0\GRPCClient.csproj.AssemblyReference.cache

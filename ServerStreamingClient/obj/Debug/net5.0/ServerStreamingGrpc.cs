@@ -42,15 +42,15 @@ namespace GrpcService.Protos {
       return parser.ParseFrom(context.PayloadAsNewBuffer());
     }
 
-    static readonly grpc::Marshaller<global::GrpcService.Protos.MessageRequest> __Marshaller_ServerSteaming_MessageRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcService.Protos.MessageRequest.Parser));
-    static readonly grpc::Marshaller<global::GrpcService.Protos.MessageReply> __Marshaller_ServerSteaming_MessageReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcService.Protos.MessageReply.Parser));
+    static readonly grpc::Marshaller<global::GrpcService.Protos.ServerSteamingMessageRequest> __Marshaller_ServerSteaming_ServerSteamingMessageRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcService.Protos.ServerSteamingMessageRequest.Parser));
+    static readonly grpc::Marshaller<global::GrpcService.Protos.ServerSteamingMessageReply> __Marshaller_ServerSteaming_ServerSteamingMessageReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcService.Protos.ServerSteamingMessageReply.Parser));
 
-    static readonly grpc::Method<global::GrpcService.Protos.MessageRequest, global::GrpcService.Protos.MessageReply> __Method_SendMessage = new grpc::Method<global::GrpcService.Protos.MessageRequest, global::GrpcService.Protos.MessageReply>(
+    static readonly grpc::Method<global::GrpcService.Protos.ServerSteamingMessageRequest, global::GrpcService.Protos.ServerSteamingMessageReply> __Method_SendMessage = new grpc::Method<global::GrpcService.Protos.ServerSteamingMessageRequest, global::GrpcService.Protos.ServerSteamingMessageReply>(
         grpc::MethodType.ServerStreaming,
         __ServiceName,
         "SendMessage",
-        __Marshaller_ServerSteaming_MessageRequest,
-        __Marshaller_ServerSteaming_MessageReply);
+        __Marshaller_ServerSteaming_ServerSteamingMessageRequest,
+        __Marshaller_ServerSteaming_ServerSteamingMessageReply);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -81,11 +81,11 @@ namespace GrpcService.Protos {
       {
       }
 
-      public virtual grpc::AsyncServerStreamingCall<global::GrpcService.Protos.MessageReply> SendMessage(global::GrpcService.Protos.MessageRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncServerStreamingCall<global::GrpcService.Protos.ServerSteamingMessageReply> SendMessage(global::GrpcService.Protos.ServerSteamingMessageRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return SendMessage(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual grpc::AsyncServerStreamingCall<global::GrpcService.Protos.MessageReply> SendMessage(global::GrpcService.Protos.MessageRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncServerStreamingCall<global::GrpcService.Protos.ServerSteamingMessageReply> SendMessage(global::GrpcService.Protos.ServerSteamingMessageRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncServerStreamingCall(__Method_SendMessage, null, options, request);
       }
