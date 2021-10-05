@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcService", "GrpcService.csproj", "{3672258B-F1FE-4A2B-B596-A09B7E80AE7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GRPCClient", "..\GRPCClient\GRPCClient.csproj", "{A21BAC28-475D-46F6-910D-AB6D8470FAC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{0A79494A-0AE9-4DEA-B1E4-E2B22FC83212}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unary", "Unary", "{0C347354-428A-4B52-992B-E249541A44FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerStreaming", "ServerStreaming", "{9BB26533-01FE-46B4-9E08-4BD28AF6CD2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerStreamingClient", "..\ServerStreamingClient\ServerStreamingClient.csproj", "{086F2C10-7746-46D6-9A66-1C99E4ABED2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientStreaming", "ClientStreaming", "{58279A82-57EB-4F96-A77F-3F15C0717005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRPCClientStreaming", "..\GRPCClientStreaming\GRPCClientStreaming.csproj", "{585B6C28-013F-4A7E-A829-0BCE4D0F8B77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3672258B-F1FE-4A2B-B596-A09B7E80AE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3672258B-F1FE-4A2B-B596-A09B7E80AE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3672258B-F1FE-4A2B-B596-A09B7E80AE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3672258B-F1FE-4A2B-B596-A09B7E80AE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21BAC28-475D-46F6-910D-AB6D8470FAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21BAC28-475D-46F6-910D-AB6D8470FAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21BAC28-475D-46F6-910D-AB6D8470FAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21BAC28-475D-46F6-910D-AB6D8470FAC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086F2C10-7746-46D6-9A66-1C99E4ABED2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086F2C10-7746-46D6-9A66-1C99E4ABED2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086F2C10-7746-46D6-9A66-1C99E4ABED2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086F2C10-7746-46D6-9A66-1C99E4ABED2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585B6C28-013F-4A7E-A829-0BCE4D0F8B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585B6C28-013F-4A7E-A829-0BCE4D0F8B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585B6C28-013F-4A7E-A829-0BCE4D0F8B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585B6C28-013F-4A7E-A829-0BCE4D0F8B77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A21BAC28-475D-46F6-910D-AB6D8470FAC2} = {0C347354-428A-4B52-992B-E249541A44FE}
+		{0C347354-428A-4B52-992B-E249541A44FE} = {0A79494A-0AE9-4DEA-B1E4-E2B22FC83212}
+		{9BB26533-01FE-46B4-9E08-4BD28AF6CD2F} = {0A79494A-0AE9-4DEA-B1E4-E2B22FC83212}
+		{086F2C10-7746-46D6-9A66-1C99E4ABED2A} = {9BB26533-01FE-46B4-9E08-4BD28AF6CD2F}
+		{58279A82-57EB-4F96-A77F-3F15C0717005} = {0A79494A-0AE9-4DEA-B1E4-E2B22FC83212}
+		{585B6C28-013F-4A7E-A829-0BCE4D0F8B77} = {58279A82-57EB-4F96-A77F-3F15C0717005}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8858EB1A-451E-429F-AA36-1F3EF1143D56}
+	EndGlobalSection
+EndGlobal

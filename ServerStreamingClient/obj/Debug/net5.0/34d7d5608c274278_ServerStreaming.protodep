@@ -1,0 +1,2 @@
+obj\Debug\net5.0/ServerStreaming.cs \
+obj\Debug\net5.0/ServerStreamingGrpc.cs: ../GrpcService/Protos/ServerStreaming.proto
